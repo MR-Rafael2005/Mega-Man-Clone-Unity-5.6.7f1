@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: c3a98d4549b951940b2012c3d1ce3612
+timeCreated: 1639497982
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MMStagwSelect - Copia_0
+    21300002: MMStagwSelect - Copia_1
+    21300004: MMStagwSelect - Copia_2
+    21300006: MMStagwSelect - Copia_3
+    21300008: MMStagwSelect - Copia_4
+    21300010: MMStagwSelect - Copia_5
+    21300012: MMStagwSelect - Copia_6
+    21300014: MMStagwSelect - Copia_7
+    21300016: MMStagwSelect - Copia_8
+    21300018: MMStagwSelect - Copia_9
+    21300020: MMStagwSelect - Copia_10
+    21300022: MMStagwSelect - Copia_11
+    21300024: MMStagwSelect - Copia_12
+    21300026: MMStagwSelect - Copia_13
+    21300028: MMStagwSelect - Copia_14
+    21300030: MMStagwSelect - Copia_15
+    21300032: MMStagwSelect - Copia_16
+    21300034: MMStagwSelect - Copia_17
+    21300036: MMStagwSelect - Copia_18
+    21300038: MMStagwSelect - Copia_19
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 403.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 381.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 359.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 337.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 293.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29.6
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMStagwSelect - Copia_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7.6000004
+        width: 512
+        height: 22.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
