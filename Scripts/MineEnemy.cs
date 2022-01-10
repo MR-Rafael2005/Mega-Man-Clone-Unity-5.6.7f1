@@ -5,9 +5,8 @@ using UnityEngine;
 public class MineEnemy : EnemyBase 
 {
 
-	private bool atacking;
-	private GameObject MineBullelSpaw;
-	private Transform SpawPosition;
+	private bool atacking = false;
+	public Transform SpawPosition;
 	private float fireRateEnemy = 0.5f;
 	private float nextFire;
 	public GameObject bullet;
@@ -16,8 +15,6 @@ public class MineEnemy : EnemyBase
 
 	void Start () 
 	{
-		MineBullelSpaw = GameObject.Find("MineBulletSpaw");
-		SpawPosition = MineBullelSpaw.GetComponent<Transform>();
 		animator = GetComponent<Animator>();
 	}
 
