@@ -7,11 +7,12 @@ public class CameraFollow : MonoBehaviour
 	public float yMargin;		// Distance in the y axis the player can move before the camera follows.
 	public float xSmooth;		// How smoothly the camera catches up with it's target movement in the x axis.
 	public float ySmooth;		// How smoothly the camera catches up with it's target movement in the y axis.
-	public Vector2 maxXAndY;		// The maximum x and y coordinates the camera can have.
-	public Vector2 minXAndY;		// The minimum x and y coordinates the camera can have.
-
+	public Vector2[] maxXAndY;		// The maximum x and y coordinates the camera can have.
+	public Vector2[] minXAndY;		// The minimum x and y coordinates the camera can have.
+	public bool[] changePosition;
 
 	private Transform player;		// Reference to the player's transform.
+
 
 
 	void Awake ()
@@ -58,10 +59,40 @@ public class CameraFollow : MonoBehaviour
 			targetY = Mathf.Lerp(transform.position.y, player.position.y, ySmooth * Time.deltaTime);
 
 		// The target x and y coordinates should not be larger than the maximum or smaller than the minimum.
-		targetX = Mathf.Clamp(targetX, minXAndY.x, maxXAndY.x);
-		targetY = Mathf.Clamp(targetY, minXAndY.y, maxXAndY.y);
-
+		if(changePosition[0])
+		{
+			targetX = Mathf.Clamp(targetX, minXAndY[0].x, maxXAndY[0].x);
+			targetY = Mathf.Clamp(targetY, minXAndY[0].y, maxXAndY[0].y);
+		} else if(changePosition[1]) 
+		{
+			targetX = Mathf.Clamp(targetX, minXAndY[1].x, maxXAndY[1].x);
+			targetY = Mathf.Clamp(targetY, minXAndY[1].y, maxXAndY[1].y);
+		} else if(changePosition[2])
+		{
+			targetX = Mathf.Clamp(targetX, minXAndY[2].x, maxXAndY[2].x);
+			targetY = Mathf.Clamp(targetY, minXAndY[2].y, maxXAndY[2].y);
+		}
 		// Set the camera's position to the target position with the same z component.
 		transform.position = new Vector3(targetX, targetY, transform.position.z);
 	}
+
+	private void OnTriggerStay2D(Collider2D other)
+	{
+		if(other.CompareTag("ChangeCamera0"))
+		{
+			changePosition[0] = true;
+		}
+		if(other.CompareTag("ChangeCamera1"))
+		{
+			changePosition[0] = false;
+			changePosition[1] = true;
+		}
+		if(other.CompareTag("ChangeCamera2"))
+		{
+			changePosition[1] = false;
+			changePosition[2] = true;
+		}	
+	}
+
+
 }
