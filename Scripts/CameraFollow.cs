@@ -1,5 +1,6 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class CameraFollow : MonoBehaviour 
 {
@@ -19,6 +20,7 @@ public class CameraFollow : MonoBehaviour
 	{
 		// Setting up the reference.
 		player = GameObject.FindGameObjectWithTag("Player").transform;
+		changePosition[0] = true;
 	}
 
 
@@ -75,24 +77,5 @@ public class CameraFollow : MonoBehaviour
 		// Set the camera's position to the target position with the same z component.
 		transform.position = new Vector3(targetX, targetY, transform.position.z);
 	}
-
-	private void OnTriggerStay2D(Collider2D other)
-	{
-		if(other.CompareTag("ChangeCamera0"))
-		{
-			changePosition[0] = true;
-		}
-		if(other.CompareTag("ChangeCamera1"))
-		{
-			changePosition[0] = false;
-			changePosition[1] = true;
-		}
-		if(other.CompareTag("ChangeCamera2"))
-		{
-			changePosition[1] = false;
-			changePosition[2] = true;
-		}	
-	}
-
 
 }

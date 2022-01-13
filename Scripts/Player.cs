@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
 	private int maxLife;
 	private int life;
 	public Image lifeBar;
+	public CameraFollow cameraScript;
 
 	[Header("Variaveis do Movimento")]
 	private bool isRight;
@@ -219,9 +220,7 @@ public class Player : MonoBehaviour
 				Instantiate(playerDeath, transform.position, transform.rotation);
 			}
 			Invoke("reload", 2f);
-		} 
-		if(life > 0)
-		{
+		} else {
 			Physics2D.IgnoreLayerCollision(8, 12);
 			Physics2D.IgnoreLayerCollision(8, 13);
 			somSource.clip = damangEfect;
@@ -333,6 +332,23 @@ public class Player : MonoBehaviour
 			life = 0;
 			//tookDamange = true;
 			StartCoroutine(damange());
+		}
+
+		if(other.CompareTag("ChangeCamera0"))
+		{
+			cameraScript.changePosition[0] = true;
+		}
+
+		if(other.CompareTag("ChangeCamera1"))
+		{
+			cameraScript.changePosition[0] = false;
+			cameraScript.changePosition[1] = true;
+		}
+
+		if(other.CompareTag("ChangeCamera2"))
+		{
+			cameraScript.changePosition[1] = false;
+			cameraScript.changePosition[2] = true;
 		}
 	}
 
